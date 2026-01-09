@@ -74,7 +74,7 @@ then build the binary by running
 ```bash
 make
 ```
-The binary will be located at `vox8/vox8-{arch}.
+The binary will be located at `vox8/vox8-{arch}`.
 
 ---
 
