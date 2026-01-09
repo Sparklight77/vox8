@@ -18,7 +18,7 @@ This project aims to be a clean reference-style emulator that runs real CHIP-8 s
 ![GitHub forks](https://img.shields.io/github/forks/Sprklight77/vox8?style=flat-square)
 ![GitHub issues](https://img.shields.io/github/issues/Sparklight77/vox8?style=flat-square)
 ![GitHub license](https://img.shields.io/github/license/Sparklight77/vox8?style=flat-square)
-![Last commit](https://img.shields.io/github/last-commit/Sparklight77/vox3?style=flat-square)
+![Last commit](https://img.shields.io/github/last-commit/Sparklight77/vox8?style=flat-square)
 
 
 ---
@@ -71,10 +71,12 @@ gcc chip8.c -o chip8 `sdl2-config --cflags --libs`
 ---
 
 ▶️ Running a ROM
+For Example to run a CHIP-8 ROM with vox8-arm32 build you could run:
 
 ```bash
-./chip8 path/to/rom.ch8
+./vox8-arm32 path/to/rom.ch8
 ```
+just change vox8-{arch} according to builds.
 
 
 ---
