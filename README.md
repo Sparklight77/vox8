@@ -18,7 +18,7 @@ This project aims to be a clean reference-style emulator that runs real CHIP-8 s
 ![GitHub forks](https://img.shields.io/github/forks/Sprklight77/vox8?style=flat-square)
 ![GitHub issues](https://img.shields.io/github/issues/Sparklight77/vox8?style=flat-square)
 ![GitHub license](https://img.shields.io/github/license/Sparklight77/vox8?style=flat-square)
-![Last commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/YOUR_REPO?style=flat-square)
+![Last commit](https://img.shields.io/github/last-commit/Sparklight77/vox3?style=flat-square)
 
 These update automatically. No fake numbers, no theater.
 
@@ -85,6 +85,7 @@ gcc chip8.c -o chip8 `sdl2-config --cflags --libs`
 Original CHIP-8 keypad mapped to a modern keyboard:
 
 CHIP-8      Keyboard
+
 1 2 3 C  →  1 2 3 4
 
 4 5 6 D  →  Q W E R
