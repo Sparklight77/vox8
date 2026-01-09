@@ -1,4 +1,4 @@
-# vox8
+# 🚀 vox8
 A lightweight Chip-8 emulator for Linux, bringing classic 8-bit games to life with smooth performance and faithful emulation.
 
 ---
@@ -49,8 +49,8 @@ It is **Linux-only by design**. No platform abstraction layers, no portability g
 | Linux | ✅ Supported |
 | Windows | ❌ Not supported |
 | macOS | ❌ Not supported |
-| Android | ❌ Not supported |
-| Web | ❌ Not supported |
+| Android | ☑️ with Termux|
+| Web | ❌ Not a chance |
 
 ---
 
@@ -186,10 +186,10 @@ Readable, maintainable C code
 
 Faithful CHIP-8 behavior
 
-No emulator magic or shortcuts
+Thanks to C for such a magic
 
 
-This is meant to be understood, not just run.
+This is meant to be understood, not just run. I made it as a learning project.
 
 
 ---
@@ -197,7 +197,7 @@ This is meant to be understood, not just run.
 📄 License
 
 MIT License.
-Use it, fork it, study it, break it, fix it.
+Use it, fork it, study it, break it, fix it, just make sure to credit me :).
 
 
 ---
