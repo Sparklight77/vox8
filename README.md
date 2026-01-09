@@ -3,7 +3,7 @@ A lightweight Chip-8 emulator for Linux, bringing classic 8-bit games to life wi
 
 ---
 
-# 🧠 CHIP-8 Emulator (Linux)
+# 🧠 Vox8 Emulator
 
 A **from-scratch CHIP-8 emulator** written in **C**, targeting **Linux**, with **SDL2** handling video, input, and audio.  
 Minimal dependencies, traditional design, and a focus on correctness over gimmicks.
