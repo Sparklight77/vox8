@@ -20,7 +20,6 @@ This project aims to be a clean reference-style emulator that runs real CHIP-8 s
 ![GitHub license](https://img.shields.io/github/license/Sparklight77/vox8?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/Sparklight77/vox3?style=flat-square)
 
-These update automatically. No fake numbers, no theater.
 
 ---
 
