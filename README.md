@@ -62,20 +62,23 @@ It is **Linux-only by design**. No platform abstraction layers, no portability g
 ---
 
 ## 🔨 Build Instructions
-
 First clone this repository using:
 
 ```bash
-git clone 
+git clone https://github.com/Sparklight77/vox8
+```
+Navigate to vox8 using `cd vox8`
+
+then build the binary by running
 
 ```bash
-gcc chip8.c -o chip8 `sdl2-config --cflags --libs`
+make
 ```
-
+The binary will be located at `vox8/vox8-{arch}.
 
 ---
 
-▶️ Running a ROM
+## ▶️ Running a ROM
 For Example to run a CHIP-8 ROM with vox8-arm32 build you could run:
 
 ```bash
