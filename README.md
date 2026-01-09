@@ -66,13 +66,16 @@ It is **Linux-only by design**. No platform abstraction layers, no portability g
 
 ```bash
 gcc chip8.c -o chip8 `sdl2-config --cflags --libs`
+```
 
 
 ---
 
 ▶️ Running a ROM
 
+```bash
 ./chip8 path/to/rom.ch8
+```
 
 
 ---
@@ -175,8 +178,8 @@ Runs independently of frame rendering
 
 No busy-waiting, no hacks.
 
-
 ---
+
 
 🎯 Project Goals
 
@@ -199,7 +202,6 @@ This is meant to be understood, not just run. I made it as a learning project.
 MIT License.
 Use it, fork it, study it, break it, fix it, just make sure to credit me :).
 
-
 ---
 
 📒Notes
@@ -209,4 +211,3 @@ No shaders. No rewind. No fluff.
 
 Just opcodes, pixels, timers, and a beep that sounds exactly like it should.
 
----
