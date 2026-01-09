@@ -54,7 +54,7 @@ It is **Linux-only by design**. No platform abstraction layers, no portability g
 ---
 
 ## ⚙️ Requirements
-
+- git
 - GCC or Clang
 - SDL2 development libraries
 - A Linux environment (X11 or Wayland)
@@ -62,6 +62,11 @@ It is **Linux-only by design**. No platform abstraction layers, no portability g
 ---
 
 ## 🔨 Build Instructions
+
+First clone this repository using:
+
+```bash
+git clone 
 
 ```bash
 gcc chip8.c -o chip8 `sdl2-config --cflags --libs`
