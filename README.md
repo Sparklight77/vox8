@@ -55,7 +55,7 @@ It is **Linux-only by design**. No platform abstraction layers, no portability g
 
 ## ⚙️ Requirements
 - git
-- GCC or Clang
+- GCC
 - SDL2 development libraries
 - A Linux environment (X11 or Wayland)
 
