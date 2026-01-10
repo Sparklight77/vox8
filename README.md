@@ -80,7 +80,7 @@ The binary will be located at `vox8/vox8-{arch}`. The binary will be built depen
 ---
 
 ## ▶️ Running a ROM
-For Example to run a CHIP-8 ROM with vox8-arm32 build you could run:
+For Example to run a CHIP-8 ROM with vox8 32-bit arm build you could run:
 
 ```bash
 ./vox8-armv7a path/to/rom
