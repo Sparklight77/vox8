@@ -74,15 +74,14 @@ then build the binary by running
 ```bash
 make
 ```
-The binary will be located at `vox8/vox8-{arch}`.
-
+The binary will be located at `vox8/vox8-{arch}`. The binary will be built depending on your GCC config or system default architecture.
 ---
 
 ## ▶️ Running a ROM
 For Example to run a CHIP-8 ROM with vox8-arm32 build you could run:
 
 ```bash
-./vox8-arm32 path/to/rom.ch8
+./vox8-armv7a path/to/rom
 ```
 just change vox8-{arch} according to builds.
 
