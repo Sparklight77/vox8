@@ -1,7 +1,8 @@
 CC = gcc
-TARGET = vox8
+ARCH := $(shell $(CC) -dumpmachine | cut -d- -f1)
+TARGET = vox8-$(ARCH)
 
-# Aggressive size reduction flags
+# Aggressive size reduction flags (hope it works)
 CFLAGS = -Os -std=c11 -Wall -Wextra \
          -ffunction-sections -fdata-sections \
          -fno-asynchronous-unwind-tables \
@@ -17,7 +18,7 @@ LDFLAGS = -Wl,--gc-sections -Wl,--strip-all \
 SDL_CFLAGS = $(shell sdl2-config --cflags)
 SDL_LIBS = $(shell sdl2-config --libs)
 
-# Source directory
+# Src dir
 SRCDIR = src
 OBJDIR = obj
 
