@@ -142,39 +142,72 @@ Opcode Availability
 Opcode	Description	Status
 
 00E0	Clear screen	✅
+
 00EE	Return from subroutine	✅
+
 0NNN	SYS addr	❌
+
 1NNN	Jump	✅
+
 2NNN	Call subroutine	✅
+
 3XNN	Skip if equal (byte)	✅
+
 4XNN	Skip if not equal (byte)	✅
+
 5XY0	Skip if equal (reg)	✅
+
 6XNN	Load byte	✅
+
 7XNN	Add byte	✅
+
 8XY0	Load reg	✅
+
 8XY1	OR	✅
+
 8XY2	AND	✅
+
 8XY3	XOR	✅
+
 8XY4	Add reg	✅
+
 8XY5	Subtract	✅
+
 8XY6	Shift right	✅
-8XY7	Reverse subtract	✅
+8XY7	Reverse subtr
+act	✅
 8XYE	Shift left	✅
+
 9XY0	Skip if not equal	✅
+
 ANNN	Load index	✅
+
 BNNN	Jump with offset	✅
+
 CXNN	Random	✅
+
 DXYN	Draw sprite	✅
+
 EX9E	Skip if key pressed	✅
+
 EXA1	Skip if key not pressed	✅
+
 FX07	Get delay timer	✅
+
 FX0A	Wait for key	✅
+
 FX15	Set delay timer	✅
+
 FX18	Set sound timer	✅
+
 FX1E	Add to index	✅
+
 FX29	Font character	✅
+
 FX33	BCD	✅
+
 FX55	Store registers	✅
+
 FX65	Load registers	✅
 
 
